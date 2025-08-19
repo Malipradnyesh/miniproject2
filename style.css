@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background: #1a1a1a;
+    color: white;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #ffcc00;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background: #333;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.cell:hover {
+    background: #555;
+}
+
+#reset {
+    margin-top: 15px;
+    padding: 8px 15px;
+    font-size: 16px;
+    background: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background: #e6b800;
+}
